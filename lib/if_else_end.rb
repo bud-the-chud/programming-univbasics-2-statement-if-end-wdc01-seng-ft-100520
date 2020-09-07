@@ -1,5 +1,6 @@
 # Write your solution here
-if Time.now.to_i % 2 == 0 
+#cur_tim = Time.now.to_i
+if Time.now.to_i.even?
   puts "Even!"
 else
   puts "Odd!"
